@@ -1,0 +1,47 @@
+{
+  "mod_elements": [
+    {
+      "name": "GrandpasWalkingStick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grandpas_walking_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slimegangtools/item/GrandpasWalkingStickItem.java",
+          "src/main/resources/assets/slimegangtools/models/item/grandpas_walking_stick.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.slimegangtools.grandpas_walking_stick": "Grandpas Walking Stick"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "slimegangtools",
+    "modName": "SlimeGangTools",
+    "version": "1.0.0",
+    "author": "davio, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.slimegangtools",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
