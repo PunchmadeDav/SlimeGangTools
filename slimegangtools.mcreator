@@ -1,29 +1,294 @@
 {
   "mod_elements": [
     {
-      "name": "GrandpasWalkingStick",
-      "type": "tool",
+      "name": "SuperLuck",
+      "type": "enchantment",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "grandpas_walking_stick",
+      "registry_name": "super_luck",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slimegangtools/item/GrandpasWalkingStickItem.java",
-          "src/main/resources/assets/slimegangtools/models/item/grandpas_walking_stick.json"
+          "src/main/java/net/mcreator/slimegangtools/enchantment/SuperLuckEnchantment.java"
         ]
-      }
+      },
+      "path": "~/Enchants/Prestige"
+    },
+    {
+      "name": "FatalHit",
+      "type": "enchantment",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fatal_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slimegangtools/enchantment/FatalHitEnchantment.java"
+        ]
+      },
+      "path": "~/Enchants/Prestige"
+    },
+    {
+      "name": "Guillotine",
+      "type": "enchantment",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guillotine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slimegangtools/enchantment/GuillotineEnchantment.java"
+        ]
+      },
+      "path": "~/Enchants/Prestige"
+    },
+    {
+      "name": "Exsanguinate",
+      "type": "enchantment",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsanguinate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slimegangtools/enchantment/ExsanguinateEnchantment.java"
+        ]
+      },
+      "path": "~/Enchants/Prestige"
+    },
+    {
+      "name": "BucketOfSlime",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bucket_of_slime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slimegangtools/item/BucketOfSlimeItem.java",
+          "src/main/resources/assets/slimegangtools/models/item/bucket_of_slime.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "BucketOfMagmaCube",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bucket_of_magma_cube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slimegangtools/item/BucketOfMagmaCubeItem.java",
+          "src/main/resources/assets/slimegangtools/models/item/bucket_of_magma_cube.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SlimyShovel",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimy_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slimegangtools/models/item/slimy_shovel.json",
+          "src/main/java/net/mcreator/slimegangtools/item/SlimyShovelItem.java"
+        ]
+      },
+      "path": "~/Tools/Shovel"
+    },
+    {
+      "name": "SlimeInfusedNetheriteIngot",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_infused_netherite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slimegangtools/models/item/slime_infused_netherite_ingot.json",
+          "src/main/java/net/mcreator/slimegangtools/item/SlimeInfusedNetheriteIngotItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Rightclickslime",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rightclickslime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slimegangtools/procedures/RightclickslimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "BucketOfSlimeRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bucket_of_slime_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slimegangtools/procedures/BucketOfSlimeRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SlimeSword",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slimegangtools/item/SlimeSwordItem.java",
+          "src/main/resources/assets/slimegangtools/models/item/slime_sword.json"
+        ]
+      },
+      "path": "~/Tools/Sword"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.slimegangtools.grandpas_walking_stick": "Grandpas Walking Stick"
+      "item.slimegangtools.slime_sword": "Slime Sword",
+      "item.slimegangtools.bucket_of_magma_cube": "Bucket Of Magma Cube",
+      "item.slimegangtools.slimy_shovel": "Slimy Shovel",
+      "enchantment.slimegangtools.super_luck": "Super Luck",
+      "enchantment.slimegangtools.guillotine": "Guillotine",
+      "item.slimegangtools.slime_infused_netherite_ingot": "Slime Infused Netherite Ingot",
+      "enchantment.slimegangtools.exsanguinate": "Exsanguinate",
+      "item.slimegangtools.bucket_of_slime": "Bucket Of Slime",
+      "enchantment.slimegangtools.fatal_hit": "Fatal Hit"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Enchants",
+        "children": [
+          {
+            "name": "Common",
+            "children": []
+          },
+          {
+            "name": "Rare",
+            "children": []
+          },
+          {
+            "name": "Epic",
+            "children": []
+          },
+          {
+            "name": "Legendary",
+            "children": []
+          },
+          {
+            "name": "Prestige",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "children": [
+          {
+            "name": "Pickaxe",
+            "children": []
+          },
+          {
+            "name": "Hoe",
+            "children": []
+          },
+          {
+            "name": "Sword",
+            "children": []
+          },
+          {
+            "name": "Axe",
+            "children": []
+          },
+          {
+            "name": "Shovel",
+            "children": []
+          },
+          {
+            "name": "Other",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "slimegangtools",
@@ -37,7 +302,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "fabric-1.19.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.slimegangtools",

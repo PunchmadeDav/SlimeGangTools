@@ -2,13 +2,11 @@
   "_fv": 43,
   "_type": "tool",
   "definition": {
-    "renderType": 0,
-    "texture": "grandmas_walking_stick",
-    "customModelName": "Normal",
-    "name": "Grandpas Walking Stick",
-    "specialInfo": [
-      "fffffffffffffff"
-    ],
+    "renderType": 1,
+    "texture": "effect_00",
+    "customModelName": "0_green_shovel:default",
+    "name": "Slimy Shovel",
+    "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },

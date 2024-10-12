@@ -1,3 +1,11 @@
 {
-  "item.slimegangtools.grandpas_walking_stick": "Grandpas Walking Stick"
+  "item.slimegangtools.slime_sword": "Slime Sword",
+  "item.slimegangtools.bucket_of_magma_cube": "Bucket Of Magma Cube",
+  "item.slimegangtools.slimy_shovel": "Slimy Shovel",
+  "enchantment.slimegangtools.super_luck": "Super Luck",
+  "enchantment.slimegangtools.guillotine": "Guillotine",
+  "item.slimegangtools.slime_infused_netherite_ingot": "Slime Infused Netherite Ingot",
+  "enchantment.slimegangtools.exsanguinate": "Exsanguinate",
+  "item.slimegangtools.bucket_of_slime": "Bucket Of Slime",
+  "enchantment.slimegangtools.fatal_hit": "Fatal Hit"
 }
