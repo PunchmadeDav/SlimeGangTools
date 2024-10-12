@@ -2,10 +2,10 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": ""
+        "1": "texture_00",
+        "2": "texture_gif_00",
+        "3": "slime_00",
+        "4": "effect_00"
       },
       "name": "default"
     }

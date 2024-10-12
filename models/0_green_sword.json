@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "item/slime_sword/0_green/texture_00",
-		"2": "item/slime_sword/0_green/texture_gif_00",
-		"3": "item/slime_sword/0_green/slime_00",
-		"4": "item/slime_sword/0_green/effect_00",
-		"particle": "item/slime_sword/0_green/texture_gif_00"
+		"1": "Downloads/item/slime_sword/0_green/texture_00",
+		"2": "Downloads/item/slime_sword/0_green/texture_gif_00",
+		"3": "Downloads/item/slime_sword/0_green/slime_00",
+		"4": "Downloads/item/slime_sword/0_green/effect_00",
+		"particle": "Downloads/item/slime_sword/0_green/texture_gif_00"
 	},
 	"elements": [
 		{
