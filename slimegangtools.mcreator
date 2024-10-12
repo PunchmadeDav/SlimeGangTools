@@ -110,8 +110,8 @@
       "registry_name": "slime_infused_netherite_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/slimegangtools/models/item/slime_infused_netherite_ingot.json",
-          "src/main/java/net/mcreator/slimegangtools/item/SlimeInfusedNetheriteIngotItem.java"
+          "src/main/java/net/mcreator/slimegangtools/item/SlimeInfusedNetheriteIngotItem.java",
+          "src/main/resources/assets/slimegangtools/models/item/slime_infused_netherite_ingot.json"
         ]
       },
       "path": "~/Items"
@@ -201,11 +201,39 @@
       "registry_name": "slime_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/slimegangtools/item/SlimeSwordItem.java",
-          "src/main/resources/assets/slimegangtools/models/item/slime_sword.json"
+          "src/main/resources/assets/slimegangtools/models/item/slime_sword.json",
+          "src/main/java/net/mcreator/slimegangtools/item/SlimeSwordItem.java"
         ]
       },
       "path": "~/Tools/Sword"
+    },
+    {
+      "name": "SlimeGangTools",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_gang_tools",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "DeconstructionBench",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deconstruction_bench",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slimegangtools/block/DeconstructionBenchBlock.java",
+          "src/main/resources/assets/slimegangtools/models/item/deconstruction_bench.json",
+          "src/main/resources/assets/slimegangtools/blockstates/deconstruction_bench.json",
+          "src/main/resources/assets/slimegangtools/models/block/deconstruction_bench.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -220,6 +248,8 @@
       "item.slimegangtools.slime_infused_netherite_ingot": "Slime Infused Netherite Ingot",
       "enchantment.slimegangtools.exsanguinate": "Exsanguinate",
       "item.slimegangtools.bucket_of_slime": "Bucket Of Slime",
+      "block.slimegangtools.deconstruction_bench": "Deconstruction Bench",
+      "itemGroup.slimegangtools.slime_gang_tools": "Slime Gang Tools",
       "enchantment.slimegangtools.fatal_hit": "Fatal Hit"
     }
   },
@@ -286,6 +316,10 @@
       },
       {
         "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Misc",
         "children": []
       }
     ]

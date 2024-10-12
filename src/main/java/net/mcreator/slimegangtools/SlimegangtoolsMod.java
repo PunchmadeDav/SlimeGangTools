@@ -12,14 +12,14 @@
  */
 package net.mcreator.slimegangtools;
 
-import software.bernie.geckolib3.GeckoLib;
-
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.mcreator.slimegangtools.init.SlimegangtoolsModTabs;
 import net.mcreator.slimegangtools.init.SlimegangtoolsModProcedures;
 import net.mcreator.slimegangtools.init.SlimegangtoolsModItems;
 import net.mcreator.slimegangtools.init.SlimegangtoolsModEnchantments;
+import net.mcreator.slimegangtools.init.SlimegangtoolsModBlocks;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -31,12 +31,14 @@ public class SlimegangtoolsMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing SlimegangtoolsMod");
 
+		SlimegangtoolsModTabs.load();
+
 		SlimegangtoolsModEnchantments.load();
 
+		SlimegangtoolsModBlocks.load();
 		SlimegangtoolsModItems.load();
 
 		SlimegangtoolsModProcedures.load();
 
-		GeckoLib.initialize();
 	}
 }

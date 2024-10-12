@@ -7,5 +7,7 @@
   "item.slimegangtools.slime_infused_netherite_ingot": "Slime Infused Netherite Ingot",
   "enchantment.slimegangtools.exsanguinate": "Exsanguinate",
   "item.slimegangtools.bucket_of_slime": "Bucket Of Slime",
+  "block.slimegangtools.deconstruction_bench": "Deconstruction Bench",
+  "itemGroup.slimegangtools.slime_gang_tools": "Slime Gang Tools",
   "enchantment.slimegangtools.fatal_hit": "Fatal Hit"
 }

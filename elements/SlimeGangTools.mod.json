@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Slime Gang Tools",
+    "icon": {
+      "value": "Blocks.SLIME_BLOCK"
+    },
+    "showSearch": false
+  }
+}

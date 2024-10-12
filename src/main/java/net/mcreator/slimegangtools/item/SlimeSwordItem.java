@@ -6,8 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.slimegangtools.init.SlimegangtoolsModTabs;
 import net.mcreator.slimegangtools.init.SlimegangtoolsModItems;
 
 public class SlimeSwordItem extends SwordItem {
@@ -36,6 +36,6 @@ public class SlimeSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(SlimegangtoolsModItems.SLIME_INFUSED_NETHERITE_INGOT));
 			}
-		}, 3, 6.5f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+		}, 3, 6.5f, new Item.Properties().tab(SlimegangtoolsModTabs.TAB_SLIME_GANG_TOOLS).fireResistant());
 	}
 }

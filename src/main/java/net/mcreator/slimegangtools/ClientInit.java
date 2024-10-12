@@ -12,6 +12,8 @@
 */
 package net.mcreator.slimegangtools;
 
+import net.mcreator.slimegangtools.init.SlimegangtoolsModBlocks;
+
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
@@ -20,6 +22,8 @@ import net.fabricmc.api.ClientModInitializer;
 public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+
+		SlimegangtoolsModBlocks.clientLoad();
 
 	}
 }

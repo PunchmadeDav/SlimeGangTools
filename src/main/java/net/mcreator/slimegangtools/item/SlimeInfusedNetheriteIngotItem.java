@@ -8,11 +8,13 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.slimegangtools.init.SlimegangtoolsModTabs;
+
 import java.util.List;
 
 public class SlimeInfusedNetheriteIngotItem extends Item {
 	public SlimeInfusedNetheriteIngotItem() {
-		super(new Item.Properties().tab(null).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(SlimegangtoolsModTabs.TAB_SLIME_GANG_TOOLS).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

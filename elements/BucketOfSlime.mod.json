@@ -8,7 +8,7 @@
     "name": "Bucket Of Slime",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:SlimeGangTools"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "slimegangtools:block/deconstruction_bench",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "slimegangtools:block/deconstruction_bench"
+    },
+    "axis=z": {
+      "model": "slimegangtools:block/deconstruction_bench",
+      "x": 90
+    }
+  }
+}
